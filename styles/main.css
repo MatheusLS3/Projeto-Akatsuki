@@ -1,0 +1,90 @@
+main {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 12px;
+}
+
+main div {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+main div button {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-radius: transparent;
+    border-radius: 100%;
+    border: 1px solid var(--text);
+    transition: opacity 0.4s;
+}
+
+main div button:disabled {
+    opacity: 0.4;
+}
+
+main div button svg path {
+    fill: var(--text)
+}
+
+#member__name {
+    font-size: 150px;
+    letter-spacing: 6px;
+    font-weight: 400;
+    color: transparent;
+    font-family: 'Star Guard Itallic';
+    padding-right: 10px;
+}
+
+#member__name.pain {
+    background: var(--pain);
+    -webkit-background-clip: text;
+}
+
+#member__name.obito {
+    background: var(--obito);
+    -webkit-background-clip: text;
+}
+
+#member__name.konan {
+    background: var(--konan);
+    -webkit-background-clip: text;
+}
+
+#member__name.itachi {
+    background: var(--itachi);
+    -webkit-background-clip: text;
+}
+
+#member__name.kisame {
+    background: var(--kisame);
+    -webkit-background-clip: text;
+}
+
+#member__name.sasori {
+    background: var(--sasori);
+    -webkit-background-clip: text;
+}
+
+#member__name.deidara {
+    background: var(--deidara);
+    -webkit-background-clip: text;
+}
+
+#member__name.kakuzu {
+    background: var(--kakuzu);
+    -webkit-background-clip: text;
+}
+
+#member__name.hidan {
+    background: var(--hidan);
+    -webkit-background-clip: text;
+}
+
+#member__name.zetsu {
+    background: var(--zetsu);
+    -webkit-background-clip: text;
+}
